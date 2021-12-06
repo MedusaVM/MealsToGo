@@ -32,7 +32,7 @@ export const FavouritesScreen = ({ navigation }) => {
             </Spacer>
           </TouchableOpacity>
         )}
-        keyExtranctor={(item) => item.name}
+        keyExtractor={(item) => item.name}
       />
     </SafeArea>
   ) : (
